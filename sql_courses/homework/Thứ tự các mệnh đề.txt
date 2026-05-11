@@ -1,0 +1,10 @@
+Ở dạng đầy đủ, cú pháp của lệnh SELECT trong SQL Server sẽ là:
+Cú pháp:
+	SELECT [ ALL | DISTINCT ]
+	[ TOP (n) [ PERCENT ]]
+		"biểu thức"
+	FROM “bảng”
+	[WHERE “điều kiện”]
+	[GROUP BY “biểu thức”]
+	[HAVING “điều kiện”]
+	[ORDER BY “biểu thức” [ ASC | DESC ]];
